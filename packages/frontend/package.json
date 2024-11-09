@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "@itwin/appui-abstract": "3.7.5",
+    "@itwin/core-bentley": "3.7.5",
+    "@itwin/core-common": "3.7.5",
+    "@itwin/core-frontend": "3.7.5",
+    "@itwin/core-geometry": "3.7.5",
+    "@itwin/core-i18n": "3.7.5",
+    "@itwin/core-markup": "3.7.5",
+    "@itwin/core-orbitgt": "3.7.5",
+    "@itwin/core-quantity": "3.7.5",
+    "@itwin/core-telemetry": "3.7.5",
+    "@itwin/frontend-devtools": "3.7.5",
+    "@itwin/webgl-compatibility": "3.7.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8",
+    "element-plus": "^2.8.7"
+  }
+}
